@@ -8,7 +8,7 @@ View 1 is een overzicht met paginering van de verschillende scenes die je van de
 View 2 in een detail pagina waar je de scene zelf weergeeft op een canvas met behulp van fabric.js.
 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4 and updated to Angular: 8.2.13
 
 ## Development server
 
