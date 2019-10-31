@@ -1,4 +1,10 @@
-# Diligentia
+# Sollicitatie proef Diligentia
+
+Ik maakte gebruik van de laatste versie van angular om op een correcte manier een SPA te maken met 2 views.
+
+View 1 is een overzicht met paginering van de verschillende scenes die je van de API krijgt.
+View 2 in een detail pagina waar je de scene zelf weergeeft op een canvas met behulp van fabric.js.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 
