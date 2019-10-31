@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="overview row">
+    <div *ngFor="let scene of currentScenes"  class="scene-item col-6">
+      <a [routerLink]="'/scene/' + scene.id" >
+          <h2>{{scene.name}}</h2>
+          <p>{{scene.slug}}</p>
+          <img [src]="baseUrl + scene.preview">
+      </a>
+    </div>
+  </div>
+  <nav class="row" aria-label="Page navigation">
+    <ul class="pagination">
+      <li class="page-item"><span class="page-link" (click)="previous()" >Vorige</span></li>
+      <li *ngFor="let page of pageNumbers" [ngClass]="{'page-item': true, 'active':currentPage== page - 1 }"><span class="page-link" (click)="goToPage(page)" >{{page}}</span></li>
+      <li class="page-item"><span class="page-link" (click)="next()" >Volgende</span></li>
+    </ul>
+  </nav>
+</div>
